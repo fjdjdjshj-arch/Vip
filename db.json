@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password_hash": "$2a$10$adminhashplaceholder",
+      "vip_level": 1,
+      "balance_usdt": 100.0
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Daily Check-in",
+      "description": "Open the app and claim reward",
+      "reward_usdt": 1.0,
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Watch Short Video",
+      "description": "Watch a promo video",
+      "reward_usdt": 0.5,
+      "active": true
+    }
+  ],
+  "withdraws": []
+}
